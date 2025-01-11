@@ -8,4 +8,3 @@ Flutter ile geliştirilmiş, Isar veritabanı kullanan bir görev yönetimi uygu
 - ✓Görev tamamlama durumu takibi
 - ✓Material Design arayüz
 - ✓Provider state management
->>>>>>> 7284bb1a72e2c313e1237ec3ef6435059a527a13
