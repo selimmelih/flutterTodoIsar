@@ -27,7 +27,11 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
+<<<<<<< HEAD
   if (!window.Create(L"todo_app2", origin, size)) {
+=======
+  if (!window.Create(L"hazir_repo", origin, size)) {
+>>>>>>> 7284bb1a72e2c313e1237ec3ef6435059a527a13
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

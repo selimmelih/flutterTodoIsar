@@ -1,10 +1,18 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
+<<<<<<< HEAD
 project(todo_app2 LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "todo_app2")
+=======
+project(hazir_repo LANGUAGES CXX)
+
+# The name of the executable created for the application. Change this to change
+# the on-disk name of your application.
+set(BINARY_NAME "hazir_repo")
+>>>>>>> 7284bb1a72e2c313e1237ec3ef6435059a527a13
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

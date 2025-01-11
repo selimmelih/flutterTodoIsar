@@ -6,6 +6,7 @@ allprojects {
 }
 
 rootProject.buildDir = "../build"
+<<<<<<< HEAD
 
 subprojects {
   // fix for verifyReleaseResources
@@ -30,6 +31,8 @@ subprojects {
   project.buildDir = "${rootProject.buildDir}/${project.name}"
   project.evaluationDependsOn(":app")
 }
+=======
+>>>>>>> 7284bb1a72e2c313e1237ec3ef6435059a527a13
 subprojects {
     project.buildDir = "${rootProject.buildDir}/${project.name}"
 }
@@ -39,4 +42,8 @@ subprojects {
 
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7284bb1a72e2c313e1237ec3ef6435059a527a13

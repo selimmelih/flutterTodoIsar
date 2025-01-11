@@ -3,7 +3,10 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+<<<<<<< HEAD
   isar_flutter_libs
+=======
+>>>>>>> 7284bb1a72e2c313e1237ec3ef6435059a527a13
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

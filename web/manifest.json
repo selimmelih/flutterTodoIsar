@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "todo_app2",
     "short_name": "todo_app2",
+=======
+    "name": "hazir_repo",
+    "short_name": "hazir_repo",
+>>>>>>> 7284bb1a72e2c313e1237ec3ef6435059a527a13
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
