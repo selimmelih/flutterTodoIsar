@@ -9,7 +9,6 @@ class Todo {
   late String text;
   DateTime dateTime = DateTime.now();
   bool isDone = false;
-  
   @enumerated
   PriorityLevel priority = PriorityLevel.normal;
 }

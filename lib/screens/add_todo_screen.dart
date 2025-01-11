@@ -17,7 +17,9 @@ class AddTodoScreen extends StatelessWidget {
           decoration: InputDecoration(
             suffixIcon: IconButton(
               onPressed: () async {
-                await context.read<DatabaseService>().addTodo(_textFieldController.text);
+                await context
+                    .read<DatabaseService>()
+                    .addTodo(_textFieldController.text);
                 _textFieldController.clear();
               },
               icon: const Icon(Icons.add),
