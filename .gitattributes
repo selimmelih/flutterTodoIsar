@@ -1,0 +1,47 @@
+# Tüm projeyi Dart olarak işaretle
+* linguist-language=Dart
+
+# Dart dosyalarını özellikle belirt
+*.dart linguist-detectable=true
+*.dart linguist-language=Dart
+*.dart linguist-vendored=false
+
+# Diğer tüm dilleri gizle
+*.c linguist-detectable=false
+*.cpp linguist-detectable=false
+*.h linguist-detectable=false
+*.cc linguist-detectable=false
+*.cxx linguist-detectable=false
+*.m linguist-detectable=false
+*.mm linguist-detectable=false
+*.swift linguist-detectable=false
+*.cmake linguist-detectable=false
+*.make linguist-detectable=false
+*.html linguist-detectable=false
+*.js linguist-detectable=false
+*.css linguist-detectable=false
+*.java linguist-detectable=false
+*.kt linguist-detectable=false
+*.rb linguist-detectable=false
+*.php linguist-detectable=false
+*.python linguist-detectable=false
+*.objc linguist-detectable=false
+*.sql linguist-detectable=false
+
+# Generated dosyaları işaretle
+*.g.dart linguist-generated=true
+*.freezed.dart linguist-generated=true
+*.mocks.dart linguist-generated=true
+
+# Vendor klasörlerini işaretle
+android/* linguist-vendored
+ios/* linguist-vendored
+web/* linguist-vendored
+windows/* linguist-vendored
+macos/* linguist-vendored
+linux/* linguist-vendored
+
+# Documentation
+*.md linguist-documentation
+*.txt linguist-documentation
+LICENSE linguist-documentation
